@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.gallery .photo{
+    max-width: 309px;
+    width: 100%;
+    margin: 5px;
+}
+.gallery .photo:hover{
+    cursor: pointer;
+}

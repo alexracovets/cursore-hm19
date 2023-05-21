@@ -1,0 +1,21 @@
+.photo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 90vh;
+    padding: 20px 0;
+}
+
+.photo-wrapper img{
+    max-height: 100%;
+    width: auto;
+}
+
+.back {
+    max-width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    cursor: pointer;
+}

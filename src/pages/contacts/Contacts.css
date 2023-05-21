@@ -1,0 +1,97 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.contacts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: 1px solid gray;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input:hover{
+     outline: 2px solid #365fc9;
+ }
+
+.option,
+.burger {
+    cursor: pointer;
+    margin: 0 5px;
+}
+.option svg,
+.burger svg {
+    color: #365fc9;
+    font-size: 22px;
+    padding: 0 5px;
+}
+
+.contacts-wrapper {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact:hover {
+    outline: 1px solid #365fc9;
+}
+
+.contact:hover .contact-more {
+    height: 30px;
+    opacity: 1;
+}
+
+.contact-mini {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.contact-mini img {
+    max-width: 40px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.contact-more {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: all ease-in 400ms;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.contact-more div{
+    margin-right: 10px;
+}

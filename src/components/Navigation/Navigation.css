@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation ul li{
+    padding: 10px;
+    margin: 0 20px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul li a:hover{
+    color: white;
+    text-decoration: none;
+}

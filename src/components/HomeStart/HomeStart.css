@@ -1,0 +1,17 @@
+.start-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.start-img {
+    padding: 20px;
+}
+.start-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
